@@ -10,7 +10,7 @@ VULNERS_API_KEY = os.getenv('VULNERS_API_KEY')
 
 # MongoDB Configuration
 MONGO_URI = os.getenv('MONGO_URI')
-DB_NAME = 'vulnerability_db'
+DB_NAME = 'hawk'
 COLLECTION_NAME = 'vulnerabilities'
 
 # API Endpoints
