@@ -32,6 +32,7 @@ def main():
         logging.info(f"Extracted {len(nvd_vulns)} vulnerabilities from NVD")
         vulnerabilities.extend(nvd_vulns)
     
+    
         # Vulners Data
         vulners_vulns = extractor.extract_vulners_data()
         logging.info(f"Extracted {len(vulners_vulns)} vulnerabilities from Vulners")
