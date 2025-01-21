@@ -1,6 +1,7 @@
+import logging
 import os
 from datetime import datetime
-import logging
+
 
 class FileHandler:
     def __init__(self, output_dir='output'):
