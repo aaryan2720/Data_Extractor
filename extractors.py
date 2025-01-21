@@ -33,8 +33,6 @@ class VulnerabilityExtractor:
             logging.error(f"Error extracting NVD data: {str(e)}")
             return []
 
-    
-
     def extract_vulners_data(self, query="type:cve"):
         try:
             headers = {'apiKey': VULNERS_API_KEY}
